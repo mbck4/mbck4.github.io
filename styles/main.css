@@ -1,0 +1,46 @@
+body {
+    font-size: 16px;
+    line-height: 32px;
+    color: #F0B239;
+    font-family: 'Georgia';
+}
+
+body {
+    margin: 50;
+}
+
+* {
+    margin: 50;
+    box-sizing: border-box;
+}
+
+body {
+    display: block;
+    margin: 8px;
+}
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+
+/* html {
+    color: -internal-root-color;
+}*/
+
+header img {
+    width: 190px;
+    height: auto;
+    position: relative;
+    top: 5px;
+    float: right;
+}
+
+body {
+    text-align: center;
+}
+
+body {
+    background-image: url("images/pink-black-and-yellow-abstract-painting-2911519.jpg");
+}
