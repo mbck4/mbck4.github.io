@@ -1,7 +1,7 @@
 body {
     font-size: 16px;
     line-height: 32px;
-    color: #F0B239;
+    color: #365917;
     font-family: 'Georgia';
 }
 
@@ -24,23 +24,43 @@ html {
     -webkit-text-size-adjust: 100%;
 }
 
+header,
+main,
+footer {
+    margin: 1.25rem auto;
+    padding: .5rem;
+    max-width: 800px;
+    /* xxxpx (px = pixel is a unit of measure)  */
+    ;
+}
 
-/* html {
-    color: -internal-root-color;
-}*/
+header,
+footer,
+footer a {
+    text-align: center;
+    background-color: black;
+    /* */
+    ;
+    color: whitesmoke;
+    /* Comment */
+}
 
 header img {
-    width: 190px;
+    width: 150px;
+    /*  */
+    ;
     height: auto;
-    position: relative;
-    top: 5px;
     float: right;
 }
 
-body {
-    text-align: center;
+footer {
+    font-size: smaller;
+    /* smaller */
+    ;
 }
 
-body {
-    background-image: url("images/pink-black-and-yellow-abstract-painting-2911519.jpg");
+ul {
+    /* text-align: center; */
+    margin: 0 auto;
+    max-width: 600px;
 }
