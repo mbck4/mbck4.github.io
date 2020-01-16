@@ -64,3 +64,7 @@ ul {
     margin: 0 auto;
     max-width: 600px;
 }
+
+header {
+    font-family: 'Domine', serif;
+}
