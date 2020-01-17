@@ -1,0 +1,19 @@
+body {
+    font-size: 10pt;
+    text-align: center;
+}
+
+img {
+    width: 300px;
+}
+
+
+/* calls selectors */
+
+
+/* id selector */
+
+#grid {
+    display: grid;
+    grid-template-columns: lfr;
+}
