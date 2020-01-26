@@ -1,0 +1,19 @@
+ul {
+    list-style: none;
+}
+
+nav ul li a {
+    background-color: darkgreen;
+    display: padding: 10px;
+    text-decoration: none;
+}
+
+nav ul li a:visited {
+    color: black;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
