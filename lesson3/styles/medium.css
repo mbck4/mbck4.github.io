@@ -34,4 +34,15 @@
         display: flex;
         justify-content: center;
     }
+    .parallax {
+        /* The image used */
+        background-image: url("\lesson3\images\2020-01-25-21-28-49.png");
+        /* Set a specific height */
+        height: 500px;
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 }
