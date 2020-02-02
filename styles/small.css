@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,400,500,700,900&display=swap');
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    min-width: 300px;
+    background-image: url("/cit230/lesson4/images/preston-background.jpg");
+    background-size: cover;
+    background-position: center bottom;
+}
+
+header {
+    text-align: center;
+    background-color: rgb(250, 250, 250);
+}
+
+header img {
+    width: 300px;
+}
+
+header .white-logo {
+    display: none;
+}
+
+header nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+header nav a {
+    display: block;
+    padding: 10pt;
+    text-transform: uppercase;
+    letter-spacing: 3pt;
+    border-top: 1px rgb(250, 250, 250) solid;
+    background-color: #353535;
+    text-decoration: none;
+    color: white;
+    font-size: .8em;
+    transition: 0.7s;
+}
+
+header nav a:hover {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(230, 230, 230);
+    letter-spacing: 6pt;
+}
+
+nav a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.responsive li {
+    display: block;
+    opacity: 0;
+    animation-name: menu;
+    animation-duration: .6s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes menu {
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+#preston main {
+    padding: 25px;
+}
+
+main section {
+    margin-bottom: 30pt;
+}
+
+main .forecast5 {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    max-width: 400px;
+}
+
+main .forecast {
+    border-radius: 10pt;
+    background-color: #353535b0;
+    width: 50px;
+    height: 50px;
+    margin: .5em;
+    color: white;
+    padding: 20px;
+}
+
+main h1 {
+    font-size: 3.6em;
+    font-weight: 700;
+    border-left: .2em solid rgb(0, 157, 230);
+    padding-left: .3em;
+}
+
+main h2 {
+    text-transform: uppercase;
+    letter-spacing: 3pt;
+    font-size: 1em;
+    font-weight: 700;
+    display: inline-block;
+    background-color: #353535;
+    color: white;
+    padding: 5pt 10pt;
+    max-width: 350px;
+    border-left: .5em solid rgb(0, 157, 230);
+}
+
+main p {
+    max-width: 400px;
+    padding: 25pt 15pt 15pt;
+    background-color: rgba(255, 255, 255, 0.4);
+    margin-top: -25pt;
+    border-radius: 0pt 10pt 10pt 10pt;
+    line-height: 1.3em;
+}
+
+footer {
+    background-color: #353535;
+    margin: 0px;
+    padding: 10pt;
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    margin: 5px;
+}
