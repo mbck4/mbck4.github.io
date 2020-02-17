@@ -20,12 +20,10 @@
     <header>
         <img class="black-logo" src="images\2020-02-08-20-21-29.png">
         <nav>
-
             <h1> Weather Application Vision Engine
             </h1>
-            <ul class="topnav">
-                <li>
-                    <a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <ul class="navigation">
+                <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
                 <li><a href="# ">Home</a></li>
                 <li class="active "><a href="# ">Preston</a></li>
                 <li><a href="# ">Soda Springs</a></li>
@@ -34,34 +32,34 @@
                 <li><a href="# ">Gallery</a></li>
             </ul>
         </nav>
-        <div><img class="bg-img" src="images\2020-02-06-12-09-17.png">
-            <div class="hero-text">
-                <h3>WAVE</h3>
-                <div class="arrow">
-                    <a href="#down">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </a>
-                </div>
-
-            </div>
-            <div>
-                <h1>Preston, Idaho</h1>
-                <section>
-                    <h2> Weather Summary </h2>
-                    <p id="current-weather"></p>
-                    <p id="current-temp"></p>
-                    <p id="high"></p>
-                    <p id="low"></p>
-                    <p id="wind-chill"></p>
-                    <p id="humidity"></p>
-                    <p id="wind-speed"></p>
-                </section>
-            </div>
-        </div>
     </header>
     <main>
+        <img class="bg-img" src="images\2020-02-06-12-09-17.png">
+        <div class="hero-text">
+            <h3>WAVE</h3>
+            <div class="arrow">
+                <a href="#down">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+            </div>
+        </div>
+        <div class="hero-text-block">
+            <h1>Preston, Idaho</h1>
+            <section>
+                <h2> Weather Summary </h2>
+                <p id="current-weather"></p>
+                <p id="current-temp"></p>
+                <p id="high"></p>
+                <p id="low"></p>
+                <p id="wind-chill"></p>
+                <p id="humidity"></p>
+                <p id="wind-speed"></p>
+            </section>
+        </div>
+
+
         <div class="section-container" id="down">
             <section class="forecast5">
                 <h2>High Temperature Forecast</h2>
