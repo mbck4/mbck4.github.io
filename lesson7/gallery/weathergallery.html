@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WAVE Weather Application Vision Engine</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+
+<body id="preston">
+    <div id='pancakes' class='hidden'>
+        <p>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
+    </div>
+    <header>
+        <img class="black-logo" src="images\2020-02-08-20-21-29.png">
+        <nav>
+            <h1> Weather Application Vision Engine
+            </h1>
+            <ul class="navigation">
+                <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                <li><a href="# ">Home</a></li>
+                <li class="active "><a href="# ">Preston</a></li>
+                <li><a href="# ">Soda Springs</a></li>
+                <li><a href="# ">Fish Haven</a></li>
+                <li><a href="# ">Storm Center</a></li>
+                <li><a href="# ">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <body id="gallery">
+        <main>
+            <div id="weather-gallery-title">
+                <h1>Weather Gallery</h1>
+            </div>
+            <section id="gallery-container">
+                <figure>
+                    <img src="lesson7\gallery\images\2020-02-26-16-44-11.png" data-src="lesson7\images\2020-02-17-11-38-28.png" alt="weather-image-1">
+                    <figcaption>Sunrise on the Hill</figcaption>
+                </figure>
+                <figure>
+                    <img src="lesson7\gallery\images\2020-02-26-16-45-56.png" data-src="images/weather-gallery/weather-image-2.jpg" alt="weather-image-2">
+                    <figcaption>Sunset by Collington Farm</figcaption>
+                </figure>
+                <figure>
+                    <img src="lesson7\gallery\images\2020-02-26-16-47-01.png" data-src="images/weather-gallery/weather-image-3.jpg" alt="weather-image-3">
+                    <figcaption>Sunny Morning by Oregon Border</figcaption>
+                </figure>
+                <figure>
+                    <img src="lesson7\gallery\images\2020-02-26-16-47-30.png" data-src="images/weather-gallery/weather-image-4.jpg" alt="weather-image-4">
+                    <figcaption>Lighting Storm by Preston</figcaption>
+                </figure>
+                <figure>
+                    <img src="lesson7\gallery\images\2020-02-26-16-48-00.png" data-src="images/weather-gallery/weather-image-5.jpg" alt="weather-image-5">
+                    <figcaption>Foggy Morning by Orienta Lake</figcaption>
+                </figure>
+                <figure>
+                    <img src="lesson7\gallery\images\2020-02-26-16-48-51.png" data-src="images/weather-gallery/weather-image-6.jpg" alt="weather-image-6">
+                    <figcaption>Foggy Morning on Jackson Hill</figcaption>
+                </figure>
+                <figure>
+                    <img src="lesson7\gallery\images\2020-02-26-16-49-34.png" data-src="images/weather-gallery/weather-image-7.jpg" alt="weather-image-7">
+                    <figcaption>Winter Morning by Wheeler's Cabin</figcaption>
+                </figure>
+                <figure>
+                    <img src="lesson7\gallery\images\2020-02-26-16-50-43.png" data-src="images/weather-gallery/weather-image-8.jpg" alt="weather-image-8">
+                    <figcaption>Teton Mountain Range on a Clear Day</figcaption>
+                </figure>
+            </section>
+
+
+        </main>
+        <footer>
+            <p>&copy; WAVE | Malcolm Kong</p>
+            <p><span id="currentDate"></span></p>
+        </footer>
+        <script src="scripts/toggleMenu.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script src="scripts/currentDate.js"></script>
+        <script src="scripts/currentTime.js"></script>
+        <script src="scripts/scoll.js"></script>
+        <script src="scripts/forecast.js"></script>
+    </body>
+
+</html>

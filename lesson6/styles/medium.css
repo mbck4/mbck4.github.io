@@ -21,12 +21,12 @@
     .navigation {
         margin: .65em 0;
     }
-}
-
-@media only screen and (min-width: 35em) and (max-width: 55em) {
     .bg-img {
         background-image: url("/cit230/lesson6/images/franklin-large.jpg.png");
     }
+}
+
+@media only screen and (min-width: 35em) and (max-width: 55em) {
     .section-container article img {
         width: 100px;
         height: 200px;
