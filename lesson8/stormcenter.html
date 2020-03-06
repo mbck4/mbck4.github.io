@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WAVE Weather Application Vision Engine</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+
+<body id="preston">
+    <div id='pancakes' class='hidden'>
+        <p>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
+    </div>
+    <header>
+        <img class="black-logo" src="images\2020-02-08-20-21-29.png">
+        <nav>
+            <h1> Weather Application Vision Engine
+            </h1>
+            <ul class="navigation">
+                <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                <li><a href="# ">Home</a></li>
+                <li class="active "><a href="# ">Preston</a></li>
+                <li><a href="# ">Soda Springs</a></li>
+                <li><a href="# ">Fish Haven</a></li>
+                <li><a href="# ">Storm Center</a></li>
+                <li><a href="lesson7\weathergallery.html2020-02-26-16-44-11.png2020-02-26-16-45-56.png2020-02-26-16-47-01.png2020-02-26-16-47-30.png2020-02-26-16-48-00.png2020-02-26-16-48-51.png2020-02-26-16-49-34.png2020-02-26-16-50-43.png">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form action="thanks.html" method="GET">
+            <div>
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName" required>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="example@domain.com">
+            </div>
+            <div>
+                <label for="phoneNumber">Phone Number:</label>
+                <input type="phoneNumber" id="phoneNumber" name="phoneNumber" required>
+            </div>
+            <div>
+                <label for="zipCode">Zip Code:</label>
+                <input type="number" id="ZipCode" name="ZipCode" required>
+            </div>
+            <div>
+                <label for="stormDate">Storm Date:</label>
+                <input type="date" id="stormDate" name="stormDate">
+            </div>
+            <div>
+                <label for="stormSeverity">Storm Severity:</label>
+                <input type="range" id="stormSeverity" name="stormServerity" min="1" max="10" step="1" value="5" list="tickmarks" onchange="adjustRating(this.value)">
+                <span id="rating">5</span>
+            </div>
+            <div>
+                <label for="stormRegion">Storm Region:</label>
+                <select name="stormRegion" id="stormRegion">
+                    <option> value="" </option>
+            </div>
+            <div>
+                <input type="submit" value="submit">
+                <input type="reset" value="reset">
+            </div>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; WAVE | Malcolm Kong</p>
+        <p><span id="currentDate"></span></p> 
+    </footer> 
+    <script src="scripts/toggleMenu.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="scripts/currentDate.js"></script>
+    <script src="scripts/currentTime.js"></script>
+    <script src="scripts/scoll.js"></script>
+    <script src="scripts/forecast.js"></script>
+    <script src="scripts/rating.js"></script>
+</body>
+
+</html>
