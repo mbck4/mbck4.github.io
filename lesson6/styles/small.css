@@ -127,9 +127,9 @@
     }
     /* New Nav */
     
-    .bg-img {
+    #hero-img {
         /* The image used */
-        background-image: url("/cit230/lesson6/images/2020-02-24-23-10-16.png");
+        background-image: url("/lesson6/images/franklin-small.png");
         height: 530px;
         width: 1000px;
         /* Center and scale the image nicely */

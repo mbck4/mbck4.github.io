@@ -21,9 +21,6 @@
     .navigation {
         margin: .65em 0;
     }
-    .bg-img {
-        background-image: url("/cit230/lesson6/images/franklin-large.jpg.png");
-    }
 }
 
 @media only screen and (min-width: 35em) and (max-width: 55em) {
@@ -40,6 +37,9 @@
     }
     #news p {
         margin-top: 0px;
+    }
+    #hero-img {
+        background-image: url("/lesson6/images/franklin-medium.jpg.png");
     }
 }
 
@@ -61,8 +61,8 @@
         display: grid;
         grid-template-columns: 1fr 2fr;
     }
-    .bg-img {
-        background-image: url("/cit230/lesson6/images/2020-02-24-23-22-37.png");
+    #hero-img {
+        background-image: url("/lesson6/images/franklin-large.png");
         min-height: 150px;
         display: grid;
         grid-template-columns: 2.5fr 1fr;
