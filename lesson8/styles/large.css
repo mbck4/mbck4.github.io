@@ -10,6 +10,8 @@
     header nav {
         background-color: rgba(160, 164, 168, 0.5);
         padding: 1px;
+        text-decoration: black;
+        text-decoration-color: black;
     }
     header nav a {
         display: inline;

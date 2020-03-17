@@ -333,3 +333,57 @@
             color: black;
         }
     }
+    /*-----------------STORM CENTER------------------ */
+    
+    #storm-center main {
+        padding: 25px;
+        max-width: 1000px;
+        min-width: 300px;
+        margin: auto;
+    }
+    
+    #storm-center h1 {
+        font-size: 2.5em;
+        font-weight: 700;
+        padding-left: .3em;
+        margin-top: 5px;
+        color: black;
+    }
+    
+    #storm-center form {
+        margin: 20px;
+        color: white;
+        background-color: #333333b4;
+        padding: 30px;
+        display: inline-block;
+    }
+    
+    #storm-center form div {
+        margin: 10px;
+    }
+    
+    #storm-center form p {
+        font-size: .7em;
+        font-style: italic;
+    }
+    
+    #storm-center form label {
+        display: inline-block;
+        width: 150px;
+        vertical-align: top;
+    }
+    
+    #storm-center form .radio-button {
+        width: 30px;
+    }
+    
+    #thanks section {
+        color: white;
+        text-align: center;
+        padding-top: 50px;
+        height: 600px;
+        background-color: hsla(0, 0%, 0%, 0.5);
+        font-weight: 700;
+        letter-spacing: 1pt;
+        font-size: 1.3em;
+    }
