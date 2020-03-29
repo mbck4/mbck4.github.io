@@ -1,0 +1,34 @@
+[{
+    "TempleName": "",
+    "StreetLine1": "",
+    "StreetLine2": "",
+    "City": "",
+    "State": "",
+    "Country": "",
+    "Zip": "",
+    "Telephone": "",
+    "Email": "",
+    "Services": [
+        "",
+        "",
+        "",
+        "",
+    ],
+    "History": [{
+            "Date": "",
+            "Milestone": "",
+        },
+        {
+            "Date": "",
+            "Milestone": "",
+        }
+    ],
+    "Schedule": {
+        "Initiatory": "",
+        "Endowment": "",
+    },
+    "Closures": [
+
+    ]
+
+}]

@@ -1,0 +1,424 @@
+    * {
+        font-family: 'Merriweather', serif;
+    }
+    
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    #down {
+        margin-top: 0%;
+        padding-bottom: 10%;
+    }
+    
+    h2 {
+        text-align: center;
+        font-size: small;
+        text-shadow: white;
+    }
+    
+    h3 {
+        color: rgba(252, 247, 247, 0.774);
+        font-size: 75px;
+    }
+    
+    #text_boxfont {
+        color: black;
+        font-size: 30px;
+    }
+    
+    header {
+        text-align: left;
+        background-color: rgb(250, 250, 250);
+        padding: 14px 16px;
+    }
+    
+    header img {
+        width: 115px;
+        float: left;
+    }
+    
+    .hero-text {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+    }
+    
+    .hero-text button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 60px 30px;
+        color: black;
+        background-color: rgba(252, 247, 247, 0.493);
+        text-align: center;
+        cursor: pointer;
+        border-radius: 90px;
+    }
+    
+    .arrow {
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .arrow span {
+        display: block;
+        width: 30px;
+        height: 30px;
+        border-bottom: 5px solid rgba(252, 247, 247, 0.671);
+        border-right: 5px solid rgba(252, 247, 247, 0.671);
+        transform: rotate(45deg);
+        margin: -10px;
+        animation: animate 2s infinite;
+    }
+    
+    .arrow span:nth-child(2) {
+        animation-delay: -0.2s;
+    }
+    
+    .arrow span:nth-child(3) {
+        animation-delay: -0.4s;
+    }
+    
+    @keyframes animate {
+        0% {
+            opacity: 0;
+            transform: rotate(45deg) translate(-20px, -20px);
+        }
+        50% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 0;
+            transform: rotate(45deg) translate(20px, 20px);
+        }
+    }
+    
+    .hero-text button:hover {
+        background-color: rgb(85, 85, 85);
+        color: rgba(252, 247, 247, 0.671);
+    }
+    
+    #pancakes {
+        background-color: rgb(85, 85, 85);
+        padding: 1px;
+        text-align: center;
+        color: white;
+        font-size: 1em;
+        font-weight: 700;
+    }
+    
+    .hidden {
+        display: none;
+    }
+    
+    .hero-text-block {
+        position: absolute;
+        bottom: 90px;
+        right: 180px;
+        background-color: rgba(253, 251, 251, 0.336);
+        color: black;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    /* New Nav */
+    
+    .bg-img {
+        /* The image used */
+        height: 530px;
+        width: 1000px;
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* Needed to position the navbar */
+        position: relative;
+    }
+    /* Position the navbar container inside the image */
+    
+    .section-container section {
+        margin-bottom: 30pt;
+    }
+    
+    .section-container h2 {
+        text-transform: uppercase;
+        letter-spacing: 3pt;
+        font-size: 1em;
+        font-weight: 700;
+        display: inline-block;
+        background-color: #353535;
+        color: white;
+        padding: 5pt 10pt;
+        max-width: 350px;
+        border-left: .5em solid black;
+    }
+    
+    .section-container td,
+    .section-container th {
+        text-align: left;
+        padding: 8pt;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+    }
+    
+    .section-container article {
+        padding: 25pt 15pt 15pt;
+        background-color: rgba(255, 255, 255, 0.7);
+        margin-top: -25pt;
+        border-radius: 0pt 10pt 10pt 10pt;
+        line-height: 1.3em;
+    }
+    
+    .article-date {
+        margin-top: 0px;
+        padding-bottom: 10px;
+        display: block;
+        font-weight: 700;
+    }
+    
+    .section-container article img {
+        width: 100%;
+    }
+    
+    header nav ul {
+        list-style-type: none;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+    
+    header nav a {
+        display: block;
+        padding: 10pt;
+        letter-spacing: 4pt;
+        border-top: 1px rgb(250, 250, 250) solid;
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+        transition: 0.7s;
+        overflow: hidden;
+    }
+    
+    header nav a:hover {
+        text-decoration: none;
+        color: black;
+        background-color: rgb(230, 230, 230);
+        letter-spacing: 6pt;
+    }
+    
+    nav a:visited {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .navigation li:first-child {
+        display: block;
+    }
+    
+    .navigation li {
+        display: none;
+    }
+    
+    .responsive li {
+        display: block;
+        opacity: 0;
+        animation-name: menu;
+        animation-duration: .6s;
+        animation-timing-function: ease-in-out;
+        animation-fill-mode: forwards;
+    }
+    
+    @keyframes menu {
+        0% {
+            opacity: 0
+        }
+        100% {
+            opacity: 1
+        }
+    }
+    
+    #preston main {
+        padding: 25px;
+        max-width: 1000px;
+        min-width: 300px;
+        margin: auto;
+    }
+    /* 
+    
+    .topnav {
+        overflow: hidden;
+        background-color: rgb(51, 51, 51);
+    }
+   
+    
+    .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: right;
+        padding: 15px 16px;
+        text-decoration: none;
+        font-size: 15px;
+    }
+    
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+    } */
+    
+    @media only screen and (min-width: 30em) {
+        main .forecast {
+            width: 70px;
+            height: 70px;
+        }
+    }
+    
+    @media only screen and (min-width: 55em) {
+        .section-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        .responsive li {
+            display: block;
+            opacity: 0;
+            animation-name: menu;
+            animation-duration: .6s;
+            animation-timing-function: ease-in-out;
+            animation-fill-mode: forwards;
+        }
+        @keyframes menu {
+            0% {
+                opacity: 0
+            }
+            100% {
+                opacity: 1
+            }
+        }
+        #preston main {
+            padding: 25px;
+        }
+        main section {
+            margin-bottom: 30pt;
+        }
+        main .forecast5 {
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center;
+            max-width: 400px;
+        }
+        main .forecast {
+            border-radius: 10pt;
+            background-color: white;
+            width: 50px;
+            height: 50px;
+            margin: .5em;
+            color: white;
+            padding: 20px;
+        }
+        footer {
+            background-color: rgb(51, 51, 51);
+            margin: 0px;
+            padding: 10pt;
+            color: white;
+            text-align: center;
+        }
+        footer p {
+            margin: 5px;
+        }
+        #rating {
+            color: black;
+        }
+    }
+    /*-----------------STORM CENTER------------------ */
+    
+    #storm-center main {
+        padding: 25px;
+        max-width: 1000px;
+        min-width: 300px;
+        margin: auto;
+    }
+    
+    #storm-center h1 {
+        font-size: 2em;
+        font-weight: 700;
+        padding-left: .3em;
+        margin-top: 5px;
+        color: black;
+        text-align: center;
+    }
+    
+    #storm-center form {
+        margin: 20px;
+        color: white;
+        background-color: #333333b4;
+        padding: 30px;
+        display: inline-block;
+    }
+    
+    #storm-center form div {
+        margin: 10px;
+    }
+    
+    #storm-center form p {
+        font-size: .7em;
+        font-style: italic;
+    }
+    
+    #storm-center form label {
+        display: inline-block;
+        width: 150px;
+        vertical-align: top;
+    }
+    
+    #storm-center form .radio-button {
+        width: 30px;
+    }
+    
+    #thanks section {
+        color: white;
+        text-align: center;
+        padding-top: 50px;
+        height: 600px;
+        background-color: hsla(0, 0%, 0%, 0.5);
+        font-weight: 700;
+        letter-spacing: 1pt;
+        font-size: 1.3em;
+    }
+    /*-----------------Home Page------------------ */
+    
+    #cities {
+        display: flex;
+        flex-direction: column;
+        max-width: 1095px;
+        margin: auto;
+    }
+    
+    article img {
+        width: 250px;
+        height: 250px;
+    }
+    
+    article {
+        border: 2px solid black;
+        padding: 10px;
+        margin: 30px;
+        background-color: rgba(134, 138, 143, 0.575);
+        height: 600px;
+        width: 300px;
+        color: rgb(10, 10, 10);
+        border-radius: 5px;
+        text-align: center;
+    }
+    
+    article h1 {
+        color: navy;
+    }
