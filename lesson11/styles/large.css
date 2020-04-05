@@ -1,0 +1,43 @@
+/* BIG DESKTOP VIEW */
+
+@media only screen and (min-width: 65em) {
+    header li {
+        display: inline !important;
+    }
+    header li:first-child {
+        display: none !important;
+    }
+    header nav {
+        background-color: rgba(160, 164, 168, 0.5);
+        padding: 1px;
+        text-decoration: black;
+        text-decoration-color: black;
+    }
+    header nav a {
+        display: inline;
+        border-top: none;
+    }
+    nav a:hover {
+        letter-spacing: 3pt !important;
+    }
+    .navigation {
+        margin: .65em 0;
+    }
+    img {
+        filter: blur(0em);
+        transition: filter 0.5s;
+    }
+    .pictures {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        text-align: center;
+    }
+    figure:hover {
+        box-shadow: 0 0 20px #000000b6;
+        -webkit-transition: 0.4s;
+        filter: saturate(120%) brightness(1.05);
+    }
+    #cities {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
