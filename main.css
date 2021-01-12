@@ -18,7 +18,7 @@ h1 {
 h2 {
     font-size: 2.0rem;
     text-align: center;
-    border-bottom: 1px solid #bbb;
+    /*border-bottom: 1px solid #bbb;*/
 }
 
 header,
@@ -27,6 +27,7 @@ footer {
     margin: 1.25rem auto;
     padding: .5rem;
     max-width: 800px;
+    border-radius: 5px;
 }
 
 header,
@@ -46,6 +47,7 @@ header img {
     ;
     height: 250px;
     float: right;
+    border-radius: 5px;
 }
 
 footer {
