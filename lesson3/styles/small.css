@@ -38,6 +38,11 @@ nav ul {
     margin: 0;
     padding: 0;
     text-align: center;
+    display: flex;
+}
+
+nav li {
+    flex-basis: 25%;
 }
 
 nav a {
@@ -55,7 +60,8 @@ nav a:hover {
     text-decoration: none;
     color: black;
     background-color: black;
-    letter-spacing: 6pt;
+    letter-spacing: 3pt;
+    display: block;
 }
 
 nav a:visited {

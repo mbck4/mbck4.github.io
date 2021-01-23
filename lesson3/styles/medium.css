@@ -1,7 +1,7 @@
 @media only screen and (min-width: 37.5em) {
     nav {
         background-color: #0059A5;
-        padding: 20px;
+        padding: 4pt;
     }
     nav li {
         display: inline;
@@ -9,7 +9,6 @@
     nav a {
         display: inline;
         border-top: none;
-        padding: 5pt;
         transition: 0.3s;
     }
     nav a:hover {
