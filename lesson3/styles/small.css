@@ -76,13 +76,17 @@ h1 {
     font-weight: 900;
     font-size: 2.4em;
     letter-spacing: 2pt;
-    color: rgba(23, 107, 174, 1);
+    color: black;
 }
 
 h2 {
-    color: black;
+    color: #DB4E32;
     margin-top: 0px;
     margin-bottom: 5pt;
+}
+
+.black-h2 {
+    color: black;
 }
 
 h3 {

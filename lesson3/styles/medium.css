@@ -17,6 +17,9 @@
         font-weight: 1000;
     }
     */
+    .black-h2 {
+        color: black;
+    }
     p,
     main ul {
         max-width: 350px;
