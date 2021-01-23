@@ -1,5 +1,5 @@
 @media only screen and (min-width: 37.5em) {
-    nav {
+    /* nav {
         background-color: #0059A5;
         padding: 4pt;
     }
@@ -16,6 +16,7 @@
         letter-spacing: 3pt;
         font-weight: 1000;
     }
+    */
     p,
     main ul {
         max-width: 350px;

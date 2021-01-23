@@ -33,6 +33,10 @@ header h2 {
     color: black;
 }
 
+nav {
+    background-color: black;
+}
+
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -52,21 +56,20 @@ nav a {
     letter-spacing: 3pt;
     border-top: 1px black;
     text-decoration: none;
-    color: black;
+    color: white;
     transition: 0.7s;
 }
 
 nav a:hover {
     text-decoration: none;
     color: black;
-    background-color: black;
+    background-color: white;
     letter-spacing: 3pt;
     display: block;
 }
 
 nav a:visited {
     text-decoration: none;
-    color: black;
 }
 
 h1 {
