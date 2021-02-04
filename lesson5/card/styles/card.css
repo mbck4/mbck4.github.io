@@ -1,0 +1,25 @@
+#image {
+    width: 500px;
+    position: relative;
+    background-image: linear-gradient(white, #0571BC), url('images/card.png');
+}
+
+#image img {
+    width: 500px;
+}
+
+.overlay {
+    position: absolute;
+    width: 250px;
+    left: 40px;
+    height: 150px;
+    top: 48%;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+}
+
+main {
+    padding-left: 35%;
+    padding-top: 2%;
+}
