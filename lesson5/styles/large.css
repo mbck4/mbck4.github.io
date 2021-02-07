@@ -8,8 +8,7 @@
         display: none !important;
     }
     header nav {
-        background-color: rgba(160, 164, 168, 0.5);
-        padding: 1px;
+        background-color: #CECFD1;
     }
     header nav a {
         display: inline;
@@ -19,6 +18,7 @@
         letter-spacing: 3pt !important;
     }
     .navigation {
-        margin: .65em 0;
+        width: 100%;
+        justify-content: start;
     }
 }
