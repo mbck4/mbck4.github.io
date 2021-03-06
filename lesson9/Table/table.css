@@ -1,0 +1,48 @@
+table-1,
+caption,
+tr,
+th,
+td {
+    border: 1px solid #55565A;
+    border-collapse: collapse;
+    padding: 9px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    ;
+}
+
+table,
+caption {
+    box-shadow: 10px 10px 5px #014D71;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #DD6125;
+}
+
+caption,
+tfoot td {
+    background-color: #8DAEBF;
+}
+
+caption {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+tbody tr:nth-child(5) td:nth-child(1) {
+    font-style: italic;
+}
+
+tfoot tr td {
+    font-size: 12px;
+}
+
+.row-color {
+    background-color: #e7ffed;
+}
+
+#cells {
+    background-color: #8DAEBF;
+    color: white;
+}
